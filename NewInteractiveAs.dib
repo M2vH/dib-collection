@@ -1,3 +1,7 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":null,"items":[{"name":"csharp","languageName":"C#","aliases":["c#","cs"]},{"name":"fsharp","languageName":"F#","aliases":["f#","fs"]},{"name":"pwsh","languageName":"PowerShell","aliases":["powershell"]},{"name":"javascript","languageName":"JavaScript","aliases":["js"]},{"name":"html","languageName":"HTML"},{"name":"sql","languageName":"SQL"},{"name":"kql","languageName":"KQL"},{"name":"mermaid","languageName":"Mermaid"},{"name":"httpRequest","languageName":"http"},{"name":"value"}]}}
+
 #!markdown
 
 # Dotnet Interactive Notebook
@@ -6,11 +10,16 @@
 >.NET Interactive: Create new blank notebook
 ```
 
-#!csharp
+#!pwsh
 
-#! csharp
-// csharp code cell
-// a variable that holds integer in a range from 10 to 20
-Range foo = 10..20;
+dotnet tool restore
+dotnet --version
+dotnet interactive --version
 
-display(foo);
+#!pwsh
+
+dotnet interactive --version
+
+#!pwsh
+
+ls /usr/share/dotnet

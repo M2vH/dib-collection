@@ -1,0 +1,16 @@
+{
+    "dotnet-interactive.kernelTransportArgs": [
+    
+        "{dotnet_path}",
+        "tool",
+        "run",
+        "dotnet-interactive",
+        "--",
+        "[vscode]",
+        "stdio",
+        "--working-dir",
+        "{working_dir}"
+    ],
+    "polyglot-notebook.kernelEnvironmentVariables": {}
+
+}
