@@ -3,7 +3,7 @@
         "ms-python.python",
         "ms-toolsai.jupyter",
         "ms-toolsai.jupyter-renderers",
-        "ms-python.vscode-pylance",
+        //"ms-python.vscode-pylance",
         "ms-dotnettools.dotnet-interactive-vscode"
     ]
 }
